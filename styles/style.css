@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #1F2937;
+    font-family: "Exo 2", sans-serif;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+header .header-logo{
+    font-family: "Exo 2";
+    font-size: 40px;
+    font-weight: 1200;
+
+}
+
+header .links-flex{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+width: 50%;
+display: inline-block;
+}
+
+.image img{
+    width: 600px;
+    margin: 30px auto;
+    display: inline-block;
+}
+
+.text{
+    width: 40%;
+    margin: 30px auto;
+    display: inline-block;
+    vertical-align:top;
+}
+
+.main{
+    background-color: #1F2937;
+    height: 500px;
+    color: white;
+}
+
+.text h1{
+    font-family: "Exo 2";
+}
+.text h2{
+    font-family: "Exo 2";
+    color: rgb(110, 117, 118);
+}
+
+.mybutton{
+    background-color:#3882f6;
+    border: none;
+    border-radius: 4px;
+    padding: 3px 6px;
+    color: white;
+    width: 100px;
+    font-size: larger;
+    
+}
+
+.text > *{
+    margin: 15px;
+
+}
+
+.info h1{
+    color: black;
+    font-family: "Exo 2";
+    text-align: center;
+    margin: 20px;
+    font-size: 60px;
+    font-weight: 900px;
+}
+.info{
+    height: 440px;
+}
+.info-flex{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: space-around;
+}
+
+.info-flex div{
+    height: 250px;
+    width: 250px;
+    border: solid #1F2937 8px;
+    border-radius: 20px;
+}
+
+.info-flex div figure{
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+}
+.info-flex div figure img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+figcaption{
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+    font-family: "Exo 2";
+    font-size: larger;
+}
+
+.quote{
+    background-color: #E5E7Eb;
+    padding: 150px;
+    font-family: "Exo 2";
+    color: black;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.quote .author{
+    padding: 20px;
+    text-align: end;
+}
+
+.call{
+    background-color: white;
+    height: 300px;
+
+}
+.call .blue-box{
+    margin: 100px;
+    background-color: #3882f6;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.call .blue-box button{
+    background-color: #3882f6;
+    border: solid 2px white;
+    border-radius: 8px;
+    font-size: 20px;
+    
+    color: white;
+    font-family: "Exo 2";
+    padding: 5px;
+    width: 140px;
+    margin: 75px 450px;
+}
+
+.blue-box .call-text .c1{
+    color: white;
+    font-family: "Exo 2";
+    font-size: 40px;
+}
+
+.blue-box .call-text .c2{
+    color: rgb(145, 217, 240);
+    font-family: "Exo 2";
+    font-size: 20px;
+}
+
+.call-text{
+    
+    translate: 50% 30%;
+}
+
+footer{
+    background-color: #1F2937;
+    text-align: center;
+    height: 65px;
+    width: 100%;
+    color: white;
+    font-family: "Exo 2";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
